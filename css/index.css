@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+}
+a{
+    text-decoration: none;
+    color: #020202;
+}
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    display: block;
+}
+.page{
+    display: block;
+    overflow: hidden;
+}
+aside{
+    width: 20%;
+    padding: 60px 20px;
+    font-weight: 900;
+    font-size: 18px;
+    background: #fafafa;
+    position: fixed;
+    height: calc(100vh);
+}
+aside>h1{
+    text-align: center;
+    line-height: 65px;
+    margin-bottom: 50px;
+}
+aside>h1>a{
+    color: #020202;
+
+}
+
+nav>ul{
+    list-style-type: none;
+    box-sizing: border-box;
+}
+nav>ul>li{
+    text-align: center;
+    line-height: 65px;
+}
+nav>ul>li a{
+    color: rgb(134, 134, 134);
+    letter-spacing: 0.1em;
+}
+nav>ul>li a:hover{
+    color: #020202;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.colorlib-footer{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    bottom: 20%;
+}
+.colorlib-footer p{
+    margin-bottom: 2rem;
+}
+.colorlib-footer ul{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content:space-around;
+}
+.colorlib-footer ul li{
+    width: 10%;
+    text-align: center;
+}
+.colorlib-footer ul li a img{
+    width: 18px;
+}
+/* 右侧主页面 */
+.main{
+    width: 78%;
+    float: right;
+}
+.index_center{
+    width: 66.6%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    height: calc(100vh);
+
+}
+.index_img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.desc{
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(144, 144, 144);
+
+}
+.desc h1,.desc h2,.desc p,.desc a{
+    margin-bottom: 1.5rem;
+}
+.desc p{
+    line-height: 1.8;
+}
